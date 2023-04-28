@@ -19,7 +19,7 @@ main(){
     if (media >= 70)
     media = media/10;
     if (freq >= 75)
-    printf("Parabens voce foi aprovado com %.2f de media e %.2f de presenca \n", media, freq);
+    printf("Parabens voce foi aprovado com %.2f de media e %.1f porcento de presenca \n", media, freq);
     else
     printf("Infelizmente voce foi reprovado");
 
